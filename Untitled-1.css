@@ -1,0 +1,27 @@
+h1 {
+    display: flex;
+    border: rgb(42, 165, 63);
+    color: #e3e9ec;
+    justify-content: center;
+    align-items: center;
+    background: rgb(199, 31, 31);
+}
+
+div {
+    justify-content: space-around;
+}
+.copy {
+    display: flex;
+    color: rgb(255, 255, 255);
+    background: rgb(10, 9, 9);
+}
+.ph0{
+    display: flex;
+}
+.ph1{
+    display: flex;
+    justify-content: center;
+    border-color: black;
+    border-width: 2px;
+    border-left: black;
+}
