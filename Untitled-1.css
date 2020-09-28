@@ -1,3 +1,6 @@
+*{
+    margin: 0px;
+}
 h1 {
     display: flex;
     border: rgb(42, 165, 63);
@@ -14,9 +17,13 @@ div {
     display: flex;
     color: rgb(255, 255, 255);
     background: rgb(10, 9, 9);
+    align-items: center;
+    height: 41px;
 }
 .ph0{
     display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .ph1{
     display: flex;
@@ -24,4 +31,11 @@ div {
     border-color: black;
     border-width: 2px;
     border-left: black;
+}
+.img-car{
+    border: 2px dashed black;
+    margin: 2px;
+}
+.img-present{
+    width: 100%;
 }
